@@ -1,7 +1,7 @@
-# API-HWK
+# API-work
 Instructions
 
-Part 1 - Personal Finance Planner
+# Part 1 - Personal Finance Planner
 In this section of the challenge, you will create a personal finance planner application. To develop the personal finance planner prototype, you should take into account the following assumptions:
 
 
@@ -91,7 +91,7 @@ If total savings are less than the emergency fund, display a message showing how
 
 
 
-Part 2 - Retirement Planning
+# Part 2 - Retirement Planning
 In this section, you will use the Alpaca API to fetch historical closing prices for a retirement portfolio and then Use the MCForecastTools toolkit to create Monte Carlo simulations to project the portfolio performance at 30 years. You will then use the Monte Carlo data to answer questions about the portfolio.
 Follow the steps outlined in the starter notebook to complete the following:
 
@@ -110,7 +110,7 @@ Plot the simulation results and the probability distribution/confidence interval
 
 
 
-Retirement Analysis
+## Retirement Analysis
 
 
 Fetch the summary statistics from the Monte Carlo simulation results.
@@ -123,7 +123,7 @@ Calculate the expected portfolio return at the 95% lower and upper confidence in
 
 
 
-Optional Challenge - Early Retirement
+Early Retirement
 The CTO of the Credit Union was really impressed with your work on this planner, but commented that 30 years seems like such a long time to wait to retire! The CTO starts wondering if the retirement plan could be adjusted to account for an earlier than normal retirement.
 Try adjusting the portfolio to either include more risk (a higher stock than bond ratio) or to have a larger initial investment and rerun the retirement analysis to see what it would take to retire in 5 or 10 years instead of 30!
 
@@ -132,9 +132,3 @@ Hints and Considerations
 
 
 To allow for quicker work during the Monte Carlo simulation, start out by running 100 simulations for one year of returns, and when you have the code worked out, run the full 500 simulations for 30 years.
-
-
-Remember to add the .env files to the .gitignore configuration to avoid exposing your API keys in your GitHub repository.
-
-
-A .gitignore file contains file names and extensions of files that you don't want pushed to your repository. For more information on how a gitignore works, you can read the documentation here.
